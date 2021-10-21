@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:customerDB
+    username: sa
+    password: 1234
+    driverClassName: org.h2.Driver
+  jpa:
+    spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console.enabled: true
+life-expectancy: 77 # expectativa de vida promedio en Argentina
